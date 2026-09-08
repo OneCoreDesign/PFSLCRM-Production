@@ -1,1 +1,236 @@
-const a6_0x5d9f4b=a6_0x3f16;(function(_0x2aaad3,_0x1fd06c){const _0x2785f1=a6_0x3f16,_0x3daae5=_0x2aaad3();while(!![]){try{const _0x56b96a=parseInt(_0x2785f1(0x130))/0x1+-parseInt(_0x2785f1(0x117))/0x2*(parseInt(_0x2785f1(0x162))/0x3)+-parseInt(_0x2785f1(0x159))/0x4+-parseInt(_0x2785f1(0x170))/0x5*(parseInt(_0x2785f1(0x133))/0x6)+parseInt(_0x2785f1(0x127))/0x7*(-parseInt(_0x2785f1(0x15f))/0x8)+-parseInt(_0x2785f1(0x182))/0x9*(parseInt(_0x2785f1(0x110))/0xa)+-parseInt(_0x2785f1(0x180))/0xb*(-parseInt(_0x2785f1(0x140))/0xc);if(_0x56b96a===_0x1fd06c)break;else _0x3daae5['push'](_0x3daae5['shift']());}catch(_0xd944fb){_0x3daae5['push'](_0x3daae5['shift']());}}}(a6_0x4ec9,0x53dd2));const express=require('express'),bcrypt=require(a6_0x5d9f4b(0x164)),db=require(a6_0x5d9f4b(0x176)),{authenticate,requireRole}=require(a6_0x5d9f4b(0x155)),router=express[a6_0x5d9f4b(0x173)]();function a6_0x4ec9(){const _0x1ab165=['AM9PBG','yM9KEq','y3jTlwjHy2T1Cc0','lMPZB24','whPsCgm','l3n0yxrZ','q2LPzgC','ndmYmZLTCMzUqLO','id0GpW','B0DMBMO','revmrvrfiezst00Gywn0AxzPDgLLCW','u0vmrunuicOGrLjptsb1C2vYCYbxsevsrsbPzca9id8','DgfZA19KzxnJCMLWDgLVBG','Chv0','CgfYyw1Z','zgLYzwn0B3i','nde0mZeZr0Plq0jR','BhnuwvC','u0vmrunuierju1rjtKnuigrLCgfYDg1LBNqGrLjptsb1C2vYCYbxsevsrsbKzxbHCNrTzw50ice9icCNie9srevsiejzigrLCgfYDg1LBNq','ndq0CujcBe5K','BwfW','vvbeqvrfihnXBgL0zv9Zzxf1zw5JzsbtrvqGC2vXid0GpYbxsevsrsbUyw1Lid0Gj2fJDgL2AxrPzxmN','q2fUBM90igrLBgv0zsb5B3vYC2vSzG','AgfZAfn5BMm','l3vZzxjZlZPPza','B0jbsKy','u0vmrunuigLKlcb1C2vYBMfTzsWGBMfTzsWGzw1HAwWSihjVBguSigrLCgfYDg1LBNqSigLZx2fJDgL2zsWGy3jLyxrLzf9HDcbguK9nihvZzxjZifDirvjfigLKid0GpW','u0vmrunuigLKlcb1C2vYBMfTzsWGBMfTzsWGzw1HAwWSihjVBguSigrLCgfYDg1LBNqSigLZx2fJDgL2zsWGy3jLyxrLzf9HDcbguK9nihvZzxjZie9srevsiejzig5HBwu','C3bSAxq','cIaGicbjtLnfuLqGsu5utYb1C2vYCYaODxnLCM5HBwuSig5HBwuSigvTywLSlcbWyxnZD29Yzf9OyxnOlcbYB2XLlcbKzxbHCNrTzw50ksbwquXvrvmGkd8Sid8Sid8Sid8Sid8Sid8PcIaG','l3vZzxjZ','lcb1CgrHDgvKx2f0id0Gzgf0zxrPBwuOj25VDYCPifDirvjfigLKid0GpW','mZeYtw5cs1vA','CgDzEwW','C3rHDhvZ','u0vmrunuienpvu5ukcOPigfZigmGrLjptsb1C2vYCYbxsevsrsbYB2XLid0Gj2rPCMvJDg9YjW','vxnLCIbKzwXLDgvK','yxbWBgLJyxrPB24VANnVBG','C2v0sgvHzgvY','uxPqyu4','ChjLCgfYzq','u0vmrunuienpvu5ukcOPigfZigmGrLjptsb1C2vYCW','revmrvrfiezst00GDxnLCNm','u0vmrunuicOGrLjptsb1C2vYCW','wuvnu28','EwDnuum','revmrvrfiezst00GDxnLCNmGv0HfuKuGAwqGpsa/','cIaGicaGieLou0vsvcbjtLrpihvZzxjZicHPzcWGDxnLCM5HBwuSig5HBwuSigvTywLSlcbWyxnZD29Yzf9OyxnOlcbYB2XLlcbKzxbHCNrTzw50lcbPC19Hy3rPDMuSignYzwf0zwrFyxqSihvWzgf0zwrFyxqPcIaGicaGifzbtfvfuYaOpYWGpYWGpYWGpYWGpYWGpYWGpYWGpYWGpYWGpYKkicaGia','DNfSCeC','ywrTAw4','CgfZC3DVCMrFAgfZAa','ChjPB3jPDhK','Cg9ZDa','lI4VBwLKzgXLD2fYzs9HDxrO','vvbeqvrfihvZzxjZifnfvca','vvbeqvrfihnXBgL0zv9Zzxf1zw5JzsbtrvqGC2vXid0GpYbxsevsrsbUyw1Lid0Gj3vZzxjZjW','tM8GzMLLBgrZihrVihvWzgf0zq','nJqZmtu2DNjbuLPA','CMvKDwnL','y2XPzw50x25HBwu','ALDKueK','DxnLCG','u0vmrunuicOGrLjptsbHy3rPDML0AwvZ','nty4rxDitw5d','CNvU','DxbKyxrLzf9HDa','ndG2te9cEvDA','A2v5CW','yMnYExb0ANm','yxr0ywnOBwvUDdSGzMLSzw5HBwu9iG','zxHLyW','rfLoD2q','vLnOtfe','sw52ywXPzcbYB2XL','z2v0','Bwf4','uMvft3m','Dhz3A1q','AKjPwwy','DhjPBq','ndu2mtbirxLwvwy','y3jLyxrLzf9HDa','l3jLC3rVCMu','uM91DgvY','zw1WBg95zwu','BMfTzq','lI4VzgiVzgf0ywjHC2u','ruT1svm','q29UDgvUDc1eAxnWB3nPDgLVBG','ihvZzxjZigfUzca','DxnLCL9Pza','qw1Lyw4','ywXS','wMj0y3G','AxnbCNjHEq','l2jHy2T1Ca','mtaXntmYmNzXEhnlrG','DxnL','ntq1nJqZow1et0fHAG','AxnFywn0AxzL','DxjnuK4','zgrlyvO','mtb3qxL6Eha','uMXtBLa','Dwfds2u','uLnNtLi','DxnLCM5HBwu','q29UDgvUDc1uExbL','CM9Szq','nZi4nfrnChfeDG','u0vmrunuienpvu5ukcOPigfZigmGrLjptsb1C2vYCYbxsevsrsbYB2XLid0Gj2vTCgXVEwvLjW','Dg9ju09tDhjPBMC','zgvWyxj0BwvUDa','BgvUz3rO','sw52ywXPzcbIywnRDxaGzMLSztOGBwLZC2LUzYb1C2vYCYbVCIbHy3rPDML0AwvZ','u0vmrunuienpvu5ukcOPigfZigmGrLjptsb1C2vYCYbxsevsrsbPC19Hy3rPDMuGpsaX','ANnVBG','vxnLCIbUB3qGzM91BMq'];a6_0x4ec9=function(){return _0x1ab165;};return a6_0x4ec9();}function a6_0x3f16(_0x493dc8,_0x2f53fe){_0x493dc8=_0x493dc8-0x10f;const _0x4ec992=a6_0x4ec9();let _0x3f1634=_0x4ec992[_0x493dc8];if(a6_0x3f16['weFmjm']===undefined){var _0x346f54=function(_0x1d3de8){const _0x48e9d5='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x5e9e1b='',_0x27a82b='';for(let _0x483d98=0x0,_0x5a77b1,_0x42a6cf,_0x494949=0x0;_0x42a6cf=_0x1d3de8['charAt'](_0x494949++);~_0x42a6cf&&(_0x5a77b1=_0x483d98%0x4?_0x5a77b1*0x40+_0x42a6cf:_0x42a6cf,_0x483d98++%0x4)?_0x5e9e1b+=String['fromCharCode'](0xff&_0x5a77b1>>(-0x2*_0x483d98&0x6)):0x0){_0x42a6cf=_0x48e9d5['indexOf'](_0x42a6cf);}for(let _0x382ae0=0x0,_0x4f1e79=_0x5e9e1b['length'];_0x382ae0<_0x4f1e79;_0x382ae0++){_0x27a82b+='%'+('00'+_0x5e9e1b['charCodeAt'](_0x382ae0)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x27a82b);};a6_0x3f16['kxlivI']=_0x346f54,a6_0x3f16['yuwKHD']={},a6_0x3f16['weFmjm']=!![];}const _0x8aeafb=_0x4ec992[0x0];a6_0x3f16['EyCJyo']!==_0x8aeafb&&(a6_0x3f16['yuwKHD']={},a6_0x3f16['EyCJyo']=_0x8aeafb);const _0x566e76=a6_0x3f16['yuwKHD'][_0x493dc8];return _0x566e76===undefined?(_0x3f1634=a6_0x3f16['kxlivI'](_0x3f1634),a6_0x3f16['yuwKHD'][_0x493dc8]=_0x3f1634):_0x3f1634=_0x566e76,_0x3f1634;}router[a6_0x5d9f4b(0x181)](authenticate),router[a6_0x5d9f4b(0x181)](requireRole(a6_0x5d9f4b(0x151))),router[a6_0x5d9f4b(0x16a)](a6_0x5d9f4b(0x13e),(_0x4a7893,_0x646e27)=>{const _0x2f303c=a6_0x5d9f4b,_0x14b258={'tvwkT':_0x2f303c(0x13b)},_0x254f7e=db[_0x2f303c(0x148)](_0x14b258[_0x2f303c(0x16d)])['all']();_0x646e27[_0x2f303c(0x11e)](_0x254f7e);}),router[a6_0x5d9f4b(0x154)]('/users',(_0x7196b9,_0x7587c6)=>{const _0x50030d=a6_0x5d9f4b,_0x392721={'zLOpZ':'username,\x20name,\x20password,\x20role\x20are\x20required','yvRzo':_0x50030d(0x174),'hBxpp':_0x50030d(0x12f),'QzPaN':_0x50030d(0x151),'jWdPI':_0x50030d(0x169),'XzRpc':'Username\x20already\x20exists','ReEOs':function(_0x93a3d1,_0x35929b){return _0x93a3d1||_0x35929b;}},{username:_0x5337f1,name:_0x35bf5e,email:_0x3c2e93,password:_0x50c847,role:_0x528ffa,department:_0x3e4b0a}=_0x7196b9[_0x50030d(0x121)];if(!_0x5337f1||!_0x35bf5e||!_0x50c847||!_0x528ffa)return _0x7587c6['status'](0x190)[_0x50030d(0x11e)]({'error':_0x392721['zLOpZ']});const _0x55766b=[_0x392721['yvRzo'],_0x392721['hBxpp'],_0x392721[_0x50030d(0x147)]];if(!_0x55766b['includes'](_0x528ffa))return _0x7587c6[_0x50030d(0x142)](0x190)[_0x50030d(0x11e)]({'error':_0x392721[_0x50030d(0x15c)]});const _0x18f40f=db['prepare']('SELECT\x20id\x20FROM\x20users\x20WHERE\x20username\x20=\x20?')[_0x50030d(0x16a)](_0x5337f1[_0x50030d(0x16f)]());if(_0x18f40f)return _0x7587c6[_0x50030d(0x142)](0x199)[_0x50030d(0x11e)]({'error':_0x392721[_0x50030d(0x124)]});const _0x3919e9=bcrypt['hashSync'](_0x50c847,0xa),_0x109191=db[_0x50030d(0x148)](_0x50030d(0x13d))[_0x50030d(0x160)](_0x5337f1['trim'](),_0x35bf5e,_0x3c2e93||'',_0x3919e9,_0x528ffa,_0x392721[_0x50030d(0x16c)](_0x3e4b0a,'')),_0x146cf7=db[_0x50030d(0x148)](_0x50030d(0x13a))[_0x50030d(0x16a)](_0x109191['lastInsertRowid']);_0x7587c6[_0x50030d(0x142)](0xc9)['json'](_0x146cf7);}),router[a6_0x5d9f4b(0x12d)](a6_0x5d9f4b(0x138),(_0x3cb929,_0x4be144)=>{const _0x589515=a6_0x5d9f4b,_0x584d64={'EKuIS':_0x589515(0x12b),'urMRN':_0x589515(0x11f),'lsTYW':function(_0x381d0f,_0x536786){return _0x381d0f!==_0x536786;},'jBiYf':function(_0x166d9d,_0x20cb52){return _0x166d9d!==_0x20cb52;},'Ciidg':function(_0x21f093,_0x37ea99){return _0x21f093===_0x37ea99;},'MWeSb':_0x589515(0x158),'oBAJF':'SELECT\x20id,\x20username,\x20name,\x20email,\x20role,\x20department,\x20is_active,\x20created_at\x20FROM\x20users\x20WHERE\x20id\x20=\x20?'},{username:_0x1fe5f6,name:_0x1cdee2,email:_0x39e44d,role:_0x2013f4,department:_0x59d4d0,is_active:_0x518037,password:_0x3e2c7c}=_0x3cb929[_0x589515(0x121)],_0x4ae0c5=db[_0x589515(0x148)](_0x584d64[_0x589515(0x177)])[_0x589515(0x16a)](_0x3cb929[_0x589515(0x12e)]['id']);if(!_0x4ae0c5)return _0x4be144[_0x589515(0x142)](0x194)[_0x589515(0x11e)]({'error':_0x584d64[_0x589515(0x184)]});const _0x47cfe4={};if(_0x1fe5f6)_0x47cfe4['username']=_0x1fe5f6[_0x589515(0x16f)]();if(_0x1cdee2)_0x47cfe4['name']=_0x1cdee2;if(_0x584d64[_0x589515(0x131)](_0x39e44d,undefined))_0x47cfe4['email']=_0x39e44d;if(_0x2013f4)_0x47cfe4[_0x589515(0x116)]=_0x2013f4;if(_0x584d64[_0x589515(0x131)](_0x59d4d0,undefined))_0x47cfe4['department']=_0x59d4d0;if(_0x584d64[_0x589515(0x16e)](_0x518037,undefined))_0x47cfe4[_0x589515(0x183)]=_0x518037?0x1:0x0;if(_0x3e2c7c)_0x47cfe4[_0x589515(0x152)]=bcrypt[_0x589515(0x137)](_0x3e2c7c,0xa);if(_0x584d64[_0x589515(0x126)](Object[_0x589515(0x163)](_0x47cfe4)[_0x589515(0x11b)],0x0))return _0x4be144[_0x589515(0x142)](0x190)['json']({'error':_0x584d64['MWeSb']});const _0x4c65ce=Object['keys'](_0x47cfe4)[_0x589515(0x134)](_0x46ce26=>_0x46ce26+_0x589515(0x128))[_0x589515(0x120)](',\x20'),_0x1919f7=[...Object['values'](_0x47cfe4),_0x3cb929[_0x589515(0x12e)]['id']];db['prepare'](_0x589515(0x156)+_0x4c65ce+_0x589515(0x13f))[_0x589515(0x160)](..._0x1919f7);const _0x14da9=db['prepare'](_0x584d64[_0x589515(0x139)])['get'](_0x3cb929[_0x589515(0x12e)]['id']);_0x4be144[_0x589515(0x11e)](_0x14da9);}),router['delete']('/users/:id',(_0x432927,_0xeea4bf)=>{const _0x4dd43e=a6_0x5d9f4b,_0x4c5699={'Amean':function(_0x73e720,_0xb26557){return _0x73e720===_0xb26557;},'ygMQC':_0x4dd43e(0x136),'RlSnP':_0x4dd43e(0x14e),'YEMSo':_0x4dd43e(0x144)};if(_0x4c5699[_0x4dd43e(0x17b)](parseInt(_0x432927[_0x4dd43e(0x12e)]['id']),_0x432927[_0x4dd43e(0x15d)]['id']))return _0xeea4bf[_0x4dd43e(0x142)](0x190)[_0x4dd43e(0x11e)]({'error':_0x4c5699[_0x4dd43e(0x14d)]});const _0x1c5d27=db[_0x4dd43e(0x148)](_0x4dd43e(0x12b))['get'](_0x432927[_0x4dd43e(0x12e)]['id']);if(!_0x1c5d27)return _0xeea4bf[_0x4dd43e(0x142)](0x194)['json']({'error':'User\x20not\x20found'});db['prepare'](_0x4c5699[_0x4dd43e(0x111)])[_0x4dd43e(0x160)](_0x432927[_0x4dd43e(0x12e)]['id']),_0xeea4bf[_0x4dd43e(0x11e)]({'message':_0x4c5699[_0x4dd43e(0x14c)]});}),router[a6_0x5d9f4b(0x16a)](a6_0x5d9f4b(0x125),(_0x5a1090,_0x222212)=>{const _0x282c94=a6_0x5d9f4b,_0x45efa0={'Zbtcx':_0x282c94(0x149),'uaCKe':_0x282c94(0x11d),'pgYyl':_0x282c94(0x143),'rrLPz':'SELECT\x20COUNT(*)\x20as\x20c\x20FROM\x20activities\x20WHERE\x20date\x20=\x20date(\x27now\x27)'},_0x1d7eb1={'totalUsers':db[_0x282c94(0x148)](_0x45efa0[_0x282c94(0x17d)])['get']()['c'],'activeUsers':db[_0x282c94(0x148)](_0x45efa0[_0x282c94(0x112)])['get']()['c'],'employees':db[_0x282c94(0x148)](_0x282c94(0x118))[_0x282c94(0x16a)]()['c'],'directors':db[_0x282c94(0x148)](_0x45efa0[_0x282c94(0x141)])[_0x282c94(0x16a)]()['c'],'totalActivities':db[_0x282c94(0x148)]('SELECT\x20COUNT(*)\x20as\x20c\x20FROM\x20activities')['get']()['c'],'activitiesToday':db['prepare'](_0x45efa0['rrLPz'])['get']()['c'],'departments':db[_0x282c94(0x148)](_0x282c94(0x132))['all']()[_0x282c94(0x134)](_0x57b30b=>_0x57b30b[_0x282c94(0x11a)])};_0x222212[_0x282c94(0x11e)](_0x1d7eb1);}),router[a6_0x5d9f4b(0x16a)](a6_0x5d9f4b(0x17f),(_0xb5c909,_0x286ac6)=>{const _0x302e99=a6_0x5d9f4b,_0x398993={'oGfnj':_0x302e99(0x178),'ooInV':_0x302e99(0x115),'uoMQV':_0x302e99(0x145)};try{const _0x459723=db[_0x302e99(0x148)](_0x302e99(0x14b))[_0x302e99(0x17c)](),_0x39c790=db[_0x302e99(0x148)](_0x302e99(0x15e))[_0x302e99(0x17c)](),_0x33c2af={'version':0x1,'exported_at':new Date()['toISOString'](),'users':_0x459723,'activities':_0x39c790},_0x4243cf=_0x302e99(0x122)+new Date()[_0x302e99(0x119)]()[_0x302e99(0x13c)]('T')[0x0]+_0x302e99(0x123);_0x286ac6[_0x302e99(0x146)](_0x398993[_0x302e99(0x129)],_0x302e99(0x165)+_0x4243cf+'\x22'),_0x286ac6[_0x302e99(0x146)](_0x398993['ooInV'],_0x398993['uoMQV']),_0x286ac6[_0x302e99(0x11e)](_0x33c2af);}catch(_0x5d83b1){_0x286ac6[_0x302e99(0x142)](0x1f4)[_0x302e99(0x11e)]({'error':_0x5d83b1['message']});}}),router[a6_0x5d9f4b(0x154)](a6_0x5d9f4b(0x172),(_0x4f2ec8,_0x2d661c)=>{const _0x169aa3=a6_0x5d9f4b,_0x13ba73={'RSgNR':_0x169aa3(0x11c),'ddKaZ':_0x169aa3(0x12a),'fGFCg':_0x169aa3(0x14a),'DYNwd':function(_0x1db018,_0xf3eb51){return _0x1db018>_0xf3eb51;},'vqlpG':_0x169aa3(0x157),'VShLQ':_0x169aa3(0x135)};try{const {users:_0x41b502,activities:_0x38226c,version:_0x1bc031}=_0x4f2ec8[_0x169aa3(0x121)];if(!Array[_0x169aa3(0x17e)](_0x41b502)||!Array[_0x169aa3(0x17e)](_0x38226c))return _0x2d661c['status'](0x190)[_0x169aa3(0x11e)]({'error':_0x13ba73[_0x169aa3(0x113)]});db[_0x169aa3(0x166)](_0x13ba73[_0x169aa3(0x10f)]),db[_0x169aa3(0x166)](_0x13ba73['fGFCg']);const _0x1f362e=db[_0x169aa3(0x148)](_0x169aa3(0x14f));for(const _0x117ea of _0x41b502){_0x1f362e[_0x169aa3(0x160)](_0x117ea['id'],_0x117ea[_0x169aa3(0x114)],_0x117ea[_0x169aa3(0x175)],_0x117ea['email']||'',_0x117ea[_0x169aa3(0x152)],_0x117ea['role'],_0x117ea[_0x169aa3(0x11a)]||'',_0x117ea[_0x169aa3(0x183)]??0x1,_0x117ea['created_at']||new Date()[_0x169aa3(0x119)](),_0x117ea[_0x169aa3(0x161)]||new Date()[_0x169aa3(0x119)]());}const _0x25e33f=db[_0x169aa3(0x148)]('\x0a\x20\x20\x20\x20\x20\x20INSERT\x20INTO\x20activities\x20(id,\x20user_id,\x20date,\x20client_name,\x20task_description,\x20status,\x20priority,\x20notes,\x20created_at,\x20updated_at)\x0a\x20\x20\x20\x20\x20\x20VALUES\x20(?,\x20?,\x20?,\x20?,\x20?,\x20?,\x20?,\x20?,\x20?,\x20?)\x0a\x20\x20\x20\x20');for(const _0x208216 of _0x38226c){_0x25e33f[_0x169aa3(0x160)](_0x208216['id'],_0x208216[_0x169aa3(0x17a)],_0x208216['date'],_0x208216[_0x169aa3(0x15b)],_0x208216[_0x169aa3(0x12c)],_0x208216['status'],_0x208216[_0x169aa3(0x153)],_0x208216['notes']||'',_0x208216[_0x169aa3(0x171)]||new Date()[_0x169aa3(0x119)](),_0x208216[_0x169aa3(0x161)]||new Date()[_0x169aa3(0x119)]());}try{const _0x476612=_0x41b502['reduce']((_0x464203,_0x18dbbf)=>Math[_0x169aa3(0x16b)](_0x464203,_0x18dbbf['id']),0x0),_0x268047=_0x38226c[_0x169aa3(0x15a)]((_0xfa62b0,_0x5c0410)=>Math['max'](_0xfa62b0,_0x5c0410['id']),0x0);if(_0x13ba73[_0x169aa3(0x167)](_0x476612,0x0))db[_0x169aa3(0x148)](_0x13ba73[_0x169aa3(0x150)])[_0x169aa3(0x160)](_0x476612);if(_0x13ba73[_0x169aa3(0x167)](_0x268047,0x0))db[_0x169aa3(0x148)](_0x13ba73[_0x169aa3(0x168)])[_0x169aa3(0x160)](_0x268047);}catch(_0x2eb9a5){}_0x2d661c[_0x169aa3(0x11e)]({'message':'Restored\x20'+_0x41b502[_0x169aa3(0x11b)]+_0x169aa3(0x179)+_0x38226c[_0x169aa3(0x11b)]+'\x20activities\x20successfully.'});}catch(_0x38755b){_0x2d661c[_0x169aa3(0x142)](0x1f4)[_0x169aa3(0x11e)]({'error':_0x38755b['message']});}}),module['exports']=router;
+const express = require('express');
+const bcrypt = require('bcryptjs');
+const db = require('../db/database');
+const { authenticate, requireRole } = require('../middleware/auth');
+
+const router = express.Router();
+
+router.use(authenticate);
+router.use(requireRole('admin'));
+
+// GET /api/admin/users
+router.get('/users', (req, res) => {
+  try {
+    const users = db.prepare(`
+      SELECT id, username, name, email, role, department, is_active, created_at, photo
+      FROM users
+      ORDER BY id ASC
+    `).all();
+    res.json(users);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// POST /api/admin/users
+router.post('/users', (req, res) => {
+  const { username, name, email, password, role, department, photo } = req.body;
+  if (!username || !name || !password || !role) {
+    return res.status(400).json({ error: 'username, name, password, role are required' });
+  }
+
+  const validRoles = ['employee', 'director', 'admin'];
+  if (!validRoles.includes(role)) {
+    return res.status(400).json({ error: 'Invalid role. Allowed roles: employee, director, admin' });
+  }
+
+  const existing = db.prepare('SELECT id FROM users WHERE username = ?').get(username.trim());
+  if (existing) {
+    return res.status(409).json({ error: 'Username already exists' });
+  }
+
+  const passwordHash = bcrypt.hashSync(password, 10);
+  const result = db.prepare(`
+    INSERT INTO users (username, name, email, password_hash, role, department, photo)
+    VALUES (?, ?, ?, ?, ?, ?, ?)
+  `).run(username.trim(), name, email || '', passwordHash, role, department || '', photo || null);
+
+  const newUser = db.prepare(`
+    SELECT id, username, name, email, role, department, is_active, created_at, photo
+    FROM users WHERE id = ?
+  `).get(result.lastInsertRowid);
+
+  res.status(201).json(newUser);
+});
+
+// PUT /api/admin/users/:id
+router.put('/users/:id', (req, res) => {
+  const user = db.prepare('SELECT id FROM users WHERE id = ?').get(req.params.id);
+  if (!user) {
+    return res.status(404).json({ error: 'User not found' });
+  }
+
+  const { username, name, email, role, department, is_active, password, photo } = req.body;
+  const updates = {};
+
+  if (username) updates.username = username.trim();
+  if (name) updates.name = name;
+  if (email !== undefined) updates.email = email;
+  if (role) {
+    const validRoles = ['employee', 'director', 'admin'];
+    if (!validRoles.includes(role)) {
+      return res.status(400).json({ error: 'Invalid role' });
+    }
+    updates.role = role;
+  }
+  if (department !== undefined) updates.department = department;
+  if (is_active !== undefined) updates.is_active = is_active ? 1 : 0;
+  if (photo !== undefined) updates.photo = photo;
+  if (password) updates.password_hash = bcrypt.hashSync(password, 10);
+
+  if (Object.keys(updates).length === 0) {
+    return res.status(400).json({ error: 'No fields provided for update' });
+  }
+
+  const setClauses = Object.keys(updates).map(k => `${k} = ?`).join(', ');
+  const values = [...Object.values(updates), req.params.id];
+
+  db.prepare(`UPDATE users SET ${setClauses}, updated_at = datetime('now') WHERE id = ?`).run(...values);
+
+  const updatedUser = db.prepare(`
+    SELECT id, username, name, email, role, department, is_active, created_at, photo
+    FROM users WHERE id = ?
+  `).get(req.params.id);
+
+  res.json(updatedUser);
+});
+
+// DELETE /api/admin/users/:id
+router.delete('/users/:id', (req, res) => {
+  if (parseInt(req.user.id, 10) === parseInt(req.params.id, 10)) {
+    return res.status(400).json({ error: 'Cannot delete your own account' });
+  }
+
+  const user = db.prepare('SELECT id FROM users WHERE id = ?').get(req.params.id);
+  if (!user) {
+    return res.status(404).json({ error: 'User not found' });
+  }
+
+  db.prepare('DELETE FROM users WHERE id = ?').run(req.params.id);
+  res.json({ message: 'User deleted successfully' });
+});
+
+// GET /api/admin/stats
+router.get('/stats', (req, res) => {
+  try {
+    const stats = {
+      totalUsers: db.prepare('SELECT COUNT(*) as c FROM users').get().c,
+      activeUsers: db.prepare('SELECT COUNT(*) as c FROM users WHERE is_active = 1').get().c,
+      employees: db.prepare("SELECT COUNT(*) as c FROM users WHERE role = 'employee'").get().c,
+      directors: db.prepare("SELECT COUNT(*) as c FROM users WHERE role = 'director'").get().c,
+      totalActivities: db.prepare('SELECT COUNT(*) as c FROM activities').get().c,
+      activitiesToday: db.prepare("SELECT COUNT(*) as c FROM activities WHERE date = date('now')").get().c,
+      departments: db.prepare('SELECT DISTINCT department FROM users WHERE department != ""').all().map(r => r.department)
+    };
+    res.json(stats);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// GET /api/admin/backup
+router.get('/backup', (req, res) => {
+  try {
+    const users = db.prepare('SELECT * FROM users').all();
+    const activities = db.prepare('SELECT * FROM activities').all();
+    const backup = {
+      version: 1,
+      exported_at: new Date().toISOString(),
+      users,
+      activities
+    };
+
+    const dateStr = new Date().toISOString().split('T')[0];
+    res.setHeader('Content-Disposition', `attachment; filename="crm-backup-${dateStr}.json"`);
+    res.setHeader('Content-Type', 'application/json');
+    res.json(backup);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// POST /api/admin/restore
+router.post('/restore', (req, res) => {
+  try {
+    const { users, activities, version } = req.body;
+    if (!Array.isArray(users) || !Array.isArray(activities)) {
+      return res.status(400).json({ error: 'Invalid backup format: users and activities must be arrays.' });
+    }
+
+    db.prepare('PRAGMA foreign_keys = OFF').run();
+    db.exec('DELETE FROM activities');
+    db.exec('DELETE FROM users');
+
+    const insertUser = db.prepare(`
+      INSERT INTO users (id, username, name, email, password_hash, role, department, is_active, created_at, updated_at, photo)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    `);
+
+    let maxUserId = 0;
+    for (const u of users) {
+      if (u.id > maxUserId) maxUserId = u.id;
+      insertUser.run(
+        u.id,
+        u.username,
+        u.name,
+        u.email || '',
+        u.password_hash,
+        u.role,
+        u.department || '',
+        u.is_active ?? 1,
+        u.created_at || new Date().toISOString(),
+        u.updated_at || new Date().toISOString(),
+        u.photo || null
+      );
+    }
+
+    const insertActivity = db.prepare(`
+      INSERT INTO activities (id, user_id, date, client_name, task_description, status, priority, notes, created_at, updated_at, lender, deal_size, next_action, director_message)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    `);
+
+    let maxActivityId = 0;
+    const uniqueLenders = new Set();
+    for (const a of activities) {
+      if (a.id > maxActivityId) maxActivityId = a.id;
+      if (a.lender && a.lender.trim()) uniqueLenders.add(a.lender.trim());
+      insertActivity.run(
+        a.id,
+        a.user_id,
+        a.date,
+        a.client_name,
+        a.task_description,
+        a.status,
+        a.priority,
+        a.notes || '',
+        a.created_at || new Date().toISOString(),
+        a.updated_at || new Date().toISOString(),
+        a.lender || '',
+        a.deal_size || '',
+        a.next_action || '',
+        a.director_message || ''
+      );
+    }
+
+    const insertLender = db.prepare('INSERT OR IGNORE INTO lenders (name) VALUES (?)');
+    for (const l of uniqueLenders) {
+      insertLender.run(l);
+    }
+
+    db.prepare('PRAGMA foreign_keys = ON').run();
+
+    try {
+      db.exec(`
+        DELETE FROM sqlite_sequence WHERE name IN ('users', 'activities');
+        INSERT INTO sqlite_sequence (name, seq) VALUES ('users', ${maxUserId});
+        INSERT INTO sqlite_sequence (name, seq) VALUES ('activities', ${maxActivityId});
+      `);
+    } catch (e) {}
+
+    res.json({ message: `Restored ${users.length} users and ${activities.length} activities successfully.` });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+module.exports = router;

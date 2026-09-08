@@ -8,14 +8,19 @@ logs/
 backend/logs/*.log
 *.log
 
-# SQLite runtime locks
+# SQLite runtime locks & dev database
 *.sqlite-journal
 *.sqlite-wal
 *.sqlite-shm
+backend/data/crm_dev.sqlite
 
 # Environment local overrides
 .env.local
 .env.*.local
+
+# Build & archive artifacts
+deploy.zip
+*.zip
 
 # OS files
 .DS_Store
