@@ -37,27 +37,12 @@ Open: [http://localhost:5001](http://localhost:5001)
 
 ---
 
-## 🔑 Key Accounts & Login Credentials
+## 🔑 Login Credentials
 | Role | Username | Password | Department |
 | :--- | :--- | :--- | :--- |
 | **Admin** | `admin` | `admin123` | IT |
-| **Director** | `SS` | *(Existing password)* | Director |
-| **Employee** | `ganesh` | `ganesh123` | IT |
-| **Employee** | `komal` | `komal123` | HR |
-| **Employee** | `sapna` | `sapna123` | MSPA |
-| **Employee** | `sheetal` | `sheetal123` | SSPA |
-| **Employee** | `rohan` | `rohan123` | Recordkeeping |
-| **Employee** | `soham` | `soham123` | BDBP |
-| **Employee** | `aangi` | `aangi123` | BDBP |
-| **Employee** | `wilson` | `wilson123` | OfficeAdmin |
-| **Employee** | `ankit` | `ankit123` | Account |
-| **Employee** | `sahil` | `sahil123` | Account |
-| **Employee** | `rajendra` | `rajendra123` | Account |
-| **Employee** | `abhinav` | `abhinav123` | BD |
-| **Employee** | `pankaj` | `pankaj123` | Sales Manager |
-| **Employee** | `sandeep` | `sandeep123` | Manager |
-| **Employee** | `legal` | `legal123` | Legal |
-| **Employee** | `reception` | *(Existing password)* | Reception |
+
+*Note: All employee accounts and tasks have been cleared. Additional users can be added directly via the Admin dashboard.*
 
 ---
 
