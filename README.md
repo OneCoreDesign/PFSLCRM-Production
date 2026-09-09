@@ -67,4 +67,8 @@ Open: [http://localhost:5001](http://localhost:5001)
   ```bash
   npm run db:import
   ```
+- **Empty / Reset Database (Fresh Start):**
+  ```bash
+  npm run db:empty
+  ```
 

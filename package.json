@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "build": "echo \"Build ready\"",
-    "db:import": "node backend/src/db/import-backup.js"
+    "db:import": "node backend/src/db/import-backup.js",
+    "db:empty": "node backend/src/db/empty-database.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

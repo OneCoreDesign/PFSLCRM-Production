@@ -21,6 +21,7 @@ backend/data/crm_dev.sqlite
 # Build & archive artifacts
 deploy.zip
 *.zip
+*.bak
 
 # OS files
 .DS_Store
